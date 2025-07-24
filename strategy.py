@@ -8,7 +8,7 @@ from zoneinfo import ZoneInfo
 
 # Liste des symbols à exclure et seuils de RSI pour divergence
 EXCLUDE = {"LEVERUSDT", "BMTUSDT", "SPKUSDT", "OBOLUSDT", "BTCDOMUSDT", "BRUSDT"}
-THRESHOLD_LONG  = 20     # RSI < 20 pour signal long
+THRESHOLD_LONG  = 10     # RSI < 20 pour signal long
 THRESHOLD_SHORT = 90     # RSI > 90 pour signal short
 
 # Timeframes : 1 jour, 4 heures et 1 semaine
